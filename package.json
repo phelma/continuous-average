@@ -1,0 +1,13 @@
+{
+  "name": "continuous-average",
+  "version": "0.0.1",
+  "description":
+    "Calculate averages for large quantities or continuous data without having to store a huge array",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "repo": "git@github.com:phelma/continuous-average.git"
+}
