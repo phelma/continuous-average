@@ -10,10 +10,10 @@ class Average {
     this.val = this.val * n / (n + 1) + newVal / (n + 1);
     this.n += 1;
 
-    if (this.min !== undefined || newVal < this.min) {
+    if (this.min === undefined || newVal < this.min) {
       this.min = newVal;
     }
-    if (this.max !== undefined || newVal > this.max) {
+    if (this.max === undefined || newVal > this.max) {
       this.max = newVal;
     }
     return this.val;
